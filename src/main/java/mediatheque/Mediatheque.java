@@ -31,7 +31,7 @@ public class Mediatheque {
 		ItemVisitor v = new BookPrinter();
 		for (Item i : items)
 			i.accept(v);
-		throw new UnsupportedOperationException("Not supported yet."); 
+		//throw new UnsupportedOperationException("Not supported yet."); 
 		/*
 		//avec instanceof
 		for (Item i : items)
